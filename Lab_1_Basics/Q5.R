@@ -1,0 +1,6 @@
+Litt335.radius <- readline(prompt="Enter the radius of the circle")
+Litt335.radius <- as.integer(Litt335.radius)
+Litt335.circumference <- (2*3.14*Litt335.radius)
+Litt335.area <- (3.14*Litt335.radius*Litt335.radius)
+print(paste("The circumferance of the circle is: ",Litt335.circumference))
+print(paste("The area of the circle is: ",Litt335.area))

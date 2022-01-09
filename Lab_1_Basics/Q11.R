@@ -1,0 +1,5 @@
+Litt335.BS <- as.integer(readline(prompt = "Enter the basic salary:"))
+Litt335.DA <- (0.4*Litt335.BS)
+Litt335.RA <- (0.2*Litt335.BS)
+Litt335.GS <- (Litt335.BS + Litt335.DA + Litt335.RA)
+print(paste("Ramesh's gross salary is",Litt335.GS))
